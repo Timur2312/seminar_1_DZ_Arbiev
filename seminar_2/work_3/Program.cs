@@ -4,11 +4,13 @@
 // 7 -> да
 // 1 -> нет
 
+
 Console.WriteLine("Введите день недели");
 int day = int.Parse(Console.ReadLine());
-if (day >= 1 && day <= 1)
+
+if (day >= 1 && day <= 5)
     Console.WriteLine("Будний");
-if (day < 5 && day > 7)
+else if (day >= 6 && day <= 7)
     Console.WriteLine("Выходной");
 else
     Console.WriteLine("Ввели чушь");
