@@ -27,8 +27,15 @@ int GetNumber(string message)
     return result;
 }
 
-int x = GetNumber("Введите первое число");
-int y = GetNumber("Введите второе число");
+int x1 = GetNumber("Введите  X первого точки");
+int y1 = GetNumber("Введите  Y первого точки");
+int x2 = GetNumber("Введите  X второй точки");
+int y2 = GetNumber("Введите  Y второй точки");
+int x3 = GetNumber("Введите  X третьей точки");
+int y3 = GetNumber("Введите  Y третьей точки");
+
+double length = Math.Cbrt(Math.Pow(x3 - x2 - x1, 3) + Math.Pow(y3 - y2 - y1, 3));
+Console.WriteLine($"Расстояние между точками {length}");
 
 
 
