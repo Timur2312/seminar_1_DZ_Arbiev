@@ -23,7 +23,7 @@ void Sqrt(int result)
 {
     for (int i = 1; i < result; i++)
     {
-        Console.WriteLine(Math.Pow(i, 2));
+        Console.WriteLine(Math.Pow(i, 3));
     }
 }
 int result = GetNumber("Введиче число");
