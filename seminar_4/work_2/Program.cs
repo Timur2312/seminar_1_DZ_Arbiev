@@ -21,4 +21,4 @@ void GetNumber(string text)
     }
     Console.WriteLine(sum);
 }
-GetNumber("Напишите число и получите сумму чисел в числе");
+GetNumber("Напишите число и получите сумму цифр в числе");
