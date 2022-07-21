@@ -36,6 +36,7 @@ bool FindNumber(int[,] matrix, int find)
     }
     return result;
 }
+
 Console.WriteLine("Введите количетсов строк массива");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите количество стобцов массива");
